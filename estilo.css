@@ -5,9 +5,10 @@ body{
    flex-direction: column;
    padding: 1em;
 }
-#main{
+#navegador{
    display: flex;
-   flex: 1;}
+   flex-direction:row;
+}
 #navegador ul{
     list-style-type: none;
     text-align: center;
@@ -28,14 +29,11 @@ body{
     background-color: #7a5428;
     color: #eeca9cc5;
  }
- @media screen and (max-width: 600px){
-   body { 
-      flex-direction: column;
-      width: 100%;
-      height: auto;
-   }
+ @media (max-width: 600px)and (orientation:portrait){
+
    #navegador{
       flex-direction: column;
+      width:100%
    }
    
  }
