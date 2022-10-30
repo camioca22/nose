@@ -33,8 +33,13 @@ body{
 
    #navegador{
       flex-direction: column;
-      width:100%
+      width:100%;
+      height: auto;
    }
+   footer{
+      flex-direction: column
+   }
+
    
  }
  .nav-logo img{
@@ -71,10 +76,11 @@ body{
     padding: auto;
     box-sizing: border-box;
  }
+ 
 footer{
    background-color: #7a54288a;
     text-align: center;
-    font-size: xxx-large;
+    font-size: x-large;
     font-family: 'Cookie', cursiva;
     color:rgb(54, 20, 0);
     display: flex;

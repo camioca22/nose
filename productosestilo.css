@@ -23,6 +23,7 @@ body{
     background-color: #dfb176c5;
     border: 1px solid #dfb176c5;
     text-decoration: none;
+    font-family: 'Cookie', cursiva;
  }
  #navegador li a:hover{
     background-color: #7a5428;
@@ -83,9 +84,9 @@ body{
    
  }
   footer{
-    background-color: #7a54288a;
+   background-color: #7a54288a;
     text-align: center;
-    font-size: xxx-large;
+    font-size: x-large;
     font-family: 'Cookie', cursiva;
     color:rgb(54, 20, 0);
     display: flex;
