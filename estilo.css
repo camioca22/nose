@@ -1,12 +1,13 @@
-.flex-container {
-    display: flex;
+body{
     background-image: url(img/fondo.jpg);
-    background: size 100px;;
     display: flex;
    height: 600px;
    flex-direction: column;
    padding: 1em;
-   }
+}
+#main{
+   display: flex;
+   flex: 1;}
 #navegador ul{
     list-style-type: none;
     text-align: center;
@@ -27,6 +28,17 @@
     background-color: #7a5428;
     color: #eeca9cc5;
  }
+ @media screen and (max-width: 600px){
+   body { 
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+   }
+   #navegador{
+      flex-direction: column;
+   }
+   
+ }
  .nav-logo img{
     display: block;
     width: 100%;
@@ -37,17 +49,36 @@
     vertical-align: middle;
     width: 70px;
   }
-  #descripcion h1{
+  h1{
     background-color: #7a54288a;
     text-align: center;
     font-size: xxx-large;
     font-family: 'Cookie', cursiva;
     color:rgb(54, 20, 0);
   }
-  #descripcion{
-    background-color: #7a54288a;
+ p{
+      background-color: #7a54288a;
+      text-align: center;
+      font-size: x-large;
+      font-family: 'Cookie', cursiva;
+      color:rgb(54, 20, 0);
+ }
+ #carouselExampleControls{
+    justify-items: center; 
+    align-items: center; 
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: auto;
+    box-sizing: border-box;
+ }
+footer{
+   background-color: #7a54288a;
     text-align: center;
-    font-size: x-large;
+    font-size: xxx-large;
     font-family: 'Cookie', cursiva;
     color:rgb(54, 20, 0);
-  }
+    display: flex;
+    width: 100%;
+}
